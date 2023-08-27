@@ -5,16 +5,17 @@ avatar: /img/avatar.jpg
 author: '陈耀然'
 author_bio: '上海大学人工智能研究院/未来技术学院'
 
-since: 2020
+since: 2023
 
 # Top Menu 顶部菜单
 # #title 为页内跳转，单页模式
 # 可以选择外链或其他页面
 menu:
-  "科研成果": /#Publications
-  "团队近况": /
-  "教学工作": /@Teaching
-
+  # "团队成员": /team
+  "学术论文": /publications
+  "科研项目": /projects
+  "教学工作": /teaching
+  "联系我们": /contact
 # flink picture will load if avator link calls on error
 loading_bg:
   flink: /img/profile.jpg
@@ -54,7 +55,7 @@ cv_dl:
 # Box-shadow
 # display box-shadow on page or not
 box_shadow:
-  enable: false
+  enable: true
 
 # CDN
 # 根据需要自行添加js/css
