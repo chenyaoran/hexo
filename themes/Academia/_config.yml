@@ -1,9 +1,9 @@
 favicon: /img/favicon.png
 # Change to your profile picture
-avatar: /img/avatar.jpg
+avatar: /img/profile.jpg
 # if author sets in hexo_config, this string doesn't work
-author: '陈耀然'
-author_bio: '上海大学人工智能研究院/未来技术学院'
+author: '陈耀然/Chen Yaoran'
+author_bio: '上海大学-人工智能研究院/未来技术学院'
 
 since: 2023
 
@@ -14,8 +14,8 @@ menu:
   # "团队成员": /team
   "学术论文": /publications
   "科研项目": /projects
-  "教学工作": /teaching
-  "联系我们": /contact
+  # "教学工作": /teaching
+  # "联系我们": /contact
 # flink picture will load if avator link calls on error
 loading_bg:
   flink: /img/profile.jpg
@@ -26,16 +26,9 @@ loading_bg:
 social:
   enable: true
 social_links:
-  # fab fa-twitter: /
-  # fab fa-facebook-square: /
-  # fab fa-github: /
-  # fab fa-stack-overflow: /
-  # fab fa-linkedin: /
-  # fab fa-weibo: /
-  fab fa-weixin: /
-  # fab fa-qq: /
+  fab fa-github: https://github.com/chenyaoran
+  fa fa-university: https://ai.shu.edu.cn/info/1074/1465.htm
   fas fa-envelope: mailto:[ychen169@shu.edu.cn] #E-mail
-  # fas fa-rss: /  #rss
 
 # Additional social_links，额外添加自定义链接，可显示链接名称
 # name: url || icon_name
