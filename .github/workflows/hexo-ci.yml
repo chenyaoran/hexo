@@ -1,0 +1,37 @@
+name: hexo-ci
+run-name: ${{github.actor}} run it
+on: [push]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        name: A job to deploy hexo blog
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+          with:
+            submodules: true # Checkout private submodules(themes)
+        # Caching dependencies to speed up build
+        - name: Cache node modules
+          uses: actions/cache@v2
+          id: cache
+          with:
+            path: node_modules
+            key: ${{runner.os}}-node-${{hashFiles('**/package-lock.json')}}
+            restore-keys: |
+              ${{runner.os}}-node-
+        - name: Install dependencies
+          if: steps.cache.outputs.cache-hit != 'true'
+          run: npm ci
+
+        # Deploy hexo blog website.
+        - name: Deploy hexo blog
+          id: deploy
+          uses: sma11black/hexo-action@v1.0.3
+          with:
+            deploy_key: ${{ secrets.DEPLOY_KEY }}
+            user_name: ${{ secrets.USER_NAME }}
+            user_email: ${{ secrets.USER_EMAIL }}
+            commit_msg: ${{ secrets.COMMIT_MSG }}
+        - name: Get the output
+          run: |
+            echo "The output was ${{ steps.deploy.outputs.notify }}"
