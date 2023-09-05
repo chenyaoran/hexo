@@ -1,6 +1,7 @@
 ---
 title: Short-term wind speed predicting framework based on EEMD-GA-LSTM method under large scaled wind history
 date: 2023-08-27 13:16:32
+categories: paper
 tags:
 ---
 

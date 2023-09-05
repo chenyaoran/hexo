@@ -1,11 +1,10 @@
----
 title: 学术论文
+type: paper
 date: 2023-08-27 11:17:15
 ---
-
 ---
 ## 2023
-- Zhang, Z., Kuang, L., Han, Z., Zhou, D., Zhao, Y., Bao, Y., ... & Chen, M. (2023). Comparative analysis of bent and basic winglets on performance improvement of horizontal axis wind turbines. Energy, 281, 128252.
+- Zhang, Z., Kuang, L., Han, Z., Zhou, D., Zhao, Y., Bao, Y., ... & Chen, M. (2023). Comparative analysis of bent and basic winglets on performance improvement of horizontal axis wind turbines. Energy, 281, 128252. 
 - **Chen, Y**., Zhang, D., Li, X., Peng, Y., Wu, C., Pu, H., ... & Zhang, J. (2023). Significant wave height prediction through artificial intelligent mode decomposition for wave energy management. Energy and AI, 14, 100257.
 - Cao, L., **Chen, Y**., & Jin, Q. (2023). Lightweight Strawberry Instance Segmentation on Low-Power Devices for Picking Robots. Electronics, 12(14), 3145.
 - Han, Z., Chen, H., **Chen, Y**., Su, J., Zhou, D., Zhu, H., ... & Tu, J. (2023). Aerodynamic performance optimization of vertical axis wind turbine with straight blades based on synergic control of pitch and flap. Sustainable Energy Technologies and Assessments, 57, 103250.
@@ -37,5 +36,3 @@ date: 2023-08-27 11:17:15
 ## 2019
 - Kuang, L., Su, J., **Chen, Y**., Han, Z., Zhou, D., Zhao, Y., ... & Bao, Y. (2019). Flow characteristics and dynamic responses of a parked straight‐bladed vertical axis wind turbine. Energy Science & Engineering, 7(5), 1767-1783.
 - Lei, H., Su, J., Bao, Y., **Chen, Y**., Han, Z., & Zhou, D. (2019). Investigation of wake characteristics for the offshore floating vertical axis wind turbines in pitch and surge motions of platforms. Energy, 166, 471-489.
-
-
